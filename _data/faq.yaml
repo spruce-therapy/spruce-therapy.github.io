@@ -1,0 +1,98 @@
+- name: services
+  question: What services do you offer?
+  content: |
+    I provide counselling services:
+    - to individuals residing in Manitoba
+    - who are over the age of 18;
+    - with a wide variety of concerns;
+    - via teletherapy (phone/video).
+
+- name: issues
+  question: What problems/issues do you help people with?
+  content: |
+    - Unresolved Trauma
+    - PTSD
+    - Substance Use
+    - Life Transitions
+    - Anger Management
+    - Anxiety
+    - Bipolar Disorder
+    - Parenting
+    - Relationships
+    - Coping Skills
+    - Depression
+    - Self Esteem
+    - Childhood Sexual Abuse
+    - Emotional Disturbance
+    - Suicidal Ideation
+
+- name: approaches
+  question: What Approaches inform your Work?
+  content: |
+    My approach to therapy is eclectic, which means that I draw from a wide range of theories/practices to tailor our work to your specific strengths and desires. No matter what stage of the process we’re at, you always have the right to shift our approach if some aspect of it just isn’t work for you. Some of the approaches that inform my work are:
+
+    - Accelerated Experiential Dynamic Psychotherapy
+    - Art Therapy
+    - Attachment-based
+    - Cognitive Behavioral
+    - Culturally Sensitive
+    - Emotionally Focused
+    - Experiential
+    - Family Systems
+    - Feminist
+    - Internal Family Systems
+    - Mindfulness-Based
+    - Person-Centered
+    - Somatic
+    - Strength-Based
+    - Trauma Focused
+
+- name: firstSession
+  question: What does a first session look like?
+  content: |
+    Feeling nervous and anxious about what your first session will entail is pretty normal. It’s difficult to give a super clear picture of what your session will look like as everyone’s process is different, but you can trust that from the moment we begin my commitment is to offer you a highly empathic, supportive and ethical space in which you are able to grow in whatever ways you need to. Here are a few other things you can expect:
+
+    - Ensuring we’ve covered all our bases about your rights as a client and limits to confidentiality are one of the first things we’ll discuss – you can’t make an informed decision about what you’re signing up for unless you have all the information so I think it’s pretty important. I send you an informed consent document in advance, but we’ll take a few minutes to review the information and discuss any questions you may have.
+    - I’ll be interested to hear a bit about you so I can get to know you as a person.
+    - You’ll be invited to discuss the issue(s) that brings you to therapy and details around your inner dialog, important relationships, feelings, behaviours and beliefs that impact your wellbeing. You choose how much you share! I find a good phrase to have on hand is “I want to talk about that eventually, but I’m not ready yet” in case you feel like you need to slow things down a bit.
+    - I’ll check in periodically to see how you’re doing, if anything needs to shift, or we missed something important.
+
+- name: rates
+  question: What are your Rates?
+  content: |
+    I have several fee options, which includes a sliding scale.
+
+    My standard rate is $100 for a 50-minute counselling session.
+
+    I also offer a sliding scale option as I am committed to offering reduced counselling fees to individuals who may otherwise not be able to afford counselling services from an experienced therapist. This fee ranges from 10-50% off my standard rate. There is sometimes a waitlist for these slots. Negotiated rates are offered and continued at my discretion.
+
+- name: insurance
+  question: What about Insurance Coverage and Direct Billing?
+  content: |
+    Depending on your plan, counselling services may be covered by your benefits. Check with your provider to see if counselling provided by a Canadian Certified Counsellor (CCC) is covered. I am registered with the Canadian Counselling and Psychotherapy Association (#___).
+
+    Unfortunately, I am unable to offer direct billing at this time.
+
+- name: prosCons
+  question: What are the Benefits and Drawbacks of Teletherapy?
+  content: |
+    Any form of therapy has benefits and drawbacks. For me, the pros of teletherapy outweigh the cons, but you’ll have to see for yourself!
+
+    Benefits include:
+    - More flexible scheduling
+    - Convenience
+    - Availability of service for those in remote communities and broader choice in therapists
+    - Time saved not having to commute to and from sessions
+    - No fear of running into someone you know in the wait room of a therapy office
+    - Possibly feeling more comfortable in a familiar setting, which may help you share more authentically.
+
+    Drawbacks may include:
+    - Technological glitches (i.e., frozen videos or dropped calls)
+    - You may not feel safe to share within your home environment
+    - It can sometimes be difficult to ensure online services are credible, or safe to use. Ask me more about how I keep my services private and confidential.
+    - May not be the right approach for all presenting issues
+
+- name: consultation
+  question: Can I talk to you before I commit to a first session?
+  content: |
+    Yes! I offer all potential clients a free 20-minute phone consultations to give you the chance to see if my services might be a good fit for you. This is a great opportunity to ask me any questions you think might help you make a decision and get a feel for what teletherapy might be like.
