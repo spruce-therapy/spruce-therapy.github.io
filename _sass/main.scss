@@ -32,3 +32,13 @@ h1 {
   width: 100%;
   max-width: 500px;
 }
+
+.bio-pic img {
+  width: 160px;
+}
+
+@include media-breakpoint-up(sm) {
+  .bio-pic img {
+    width: 175px;
+  }
+}
