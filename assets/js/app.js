@@ -3,10 +3,7 @@
   var errorMessages = document.getElementById('errorMessages');
   var spinner = document.getElementById('spinner');
 
-  form.addEventListener('submit', function(event) {
-    event.preventDefault();
-    event.stopPropagation();
-
+  window.onContactFormSubmit = function(captchaResponse) {
     var doSubmit = true;
     if (form.checkValidity() === false) {
       doSubmit = false;
@@ -19,7 +16,8 @@
       var data = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value,
-        message: document.getElementById('message').value
+        message: document.getElementById('message').value,
+        hcaptcha: captchaResponse
       };
 
       showSpinner();
@@ -51,7 +49,7 @@
         setErrorMessages("Sorry, the message couldn't be sent. Please try again");
       });
     }
-  }, false);
+  };
 
   function showSpinner() {
     spinner.classList.remove('d-none');

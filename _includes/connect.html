@@ -48,10 +48,20 @@
 
           </div>
           <div class="mt-2">
-            <input type="submit" class="btn btn-primary btn-sm" value="Send" />
+            <input type="submit" value="Send" class="btn btn-primary btn-sm h-captcha"
+              data-sitekey="e6326dca-e99e-4d06-8a2a-c1fb05d1e47f"
+              data-callback="onContactFormSubmit"
+              />
             <div class="spinner-border text-primary spinner-border-sm d-none" role="status" id="spinner">
               <span class="sr-only">Sending...</span>
             </div>
+          </div>
+          <div class="mt-2">
+            <small class="text-muted">
+              This site is protected by hCaptcha and its
+              <a href="https://hcaptcha.com/privacy">Privacy Policy</a> and
+              <a href="https://hcaptcha.com/terms">Terms of Service</a> apply.
+            </small>
           </div>
         </form>
       </div>
