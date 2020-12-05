@@ -20,6 +20,11 @@ h1 {
   text-transform: lowercase;
 }
 
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+
 .font-lg {
   font-size: $font-size-lg;
 }
