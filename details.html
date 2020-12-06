@@ -2,23 +2,23 @@
 title: Details
 ---
 <h1>Details</h1>
-<p class="mb-5">
+<p class="mb-4">
   Use the list of questions below to learn more about my practice including my approach, rates, what to expect from our first session, and more.
 </p>
 
 <div class="accordion" id="detailsList">
   {% for faq in site.data.faq %}
-  <div class="card">
-    <div class="card-header" id="{{ faq.name }}Heading">
+  <div class="card border-white">
+    <div class="card-header bg-white border-white" id="{{ faq.name }}Heading">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#{{ faq.name }}" aria-expanded="true" aria-controls="{{ faq.name }}">
+        <button class="btn btn-link btn-block btn-pd-x-0 text-left" type="button" data-toggle="collapse" data-target="#{{ faq.name }}" aria-expanded="true" aria-controls="{{ faq.name }}">
           {{ faq.question }}
         </button>
       </h2>
     </div>
 
     <div id="{{ faq.name }}" class="collapse" aria-labelledby="{{ faq.name }}Heading" data-parent="#detailsList">
-      <div class="card-body">
+      <div class="card-body card-body-no-top-pad">
         {{ faq.content | markdownify }}
       </div>
     </div>

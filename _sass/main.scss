@@ -29,6 +29,10 @@ a[href^="tel:"]:before {
   font-size: $font-size-lg;
 }
 
+.font-xl {
+  font-size: 2.25rem;;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -39,11 +43,15 @@ a[href^="tel:"]:before {
 }
 
 .bio-pic img {
-  width: 160px;
+  width: 100%;
+  max-width: 350px;
 }
 
-@include media-breakpoint-up(sm) {
-  .bio-pic img {
-    width: 175px;
-  }
+.btn-pd-x-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-body.card-body-no-top-pad {
+  padding-top: 0;
 }
