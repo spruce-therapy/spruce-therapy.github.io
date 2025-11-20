@@ -9,7 +9,7 @@ This is the website for sprucetherapy.ca, hosted by GitHub pages and built with 
 
 ## Deploying
 
-Create a PR and merge to `main`. GitHub pages takes care of the rest.
+Create a PR and merge to `main`. GitHub pages _should_ take care of the rest.
 
 ## Notes
 
