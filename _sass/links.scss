@@ -1,0 +1,7 @@
+/* Sets properties for an external link indicator element. Use via @extend to apply it in a more targeted way */
+.external-link {
+  &::after {
+    content: external-link-indicator();
+    padding-left: 4px;
+  }
+}
