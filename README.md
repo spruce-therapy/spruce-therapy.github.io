@@ -9,7 +9,13 @@ This is the website for sprucetherapy.ca, hosted by GitHub pages and built with 
 
 ## Deploying
 
-Create a PR and merge to `main`. GitHub pages takes care of the rest.
+Create a PR and merge to `main`. GitHub pages _should_ take care of the rest.
+
+To force a rebuild without changing files, run this:
+```
+git commit --allow-empty -m "Trigger GitHub Pages rebuild"
+git push
+```
 
 ## Notes
 
