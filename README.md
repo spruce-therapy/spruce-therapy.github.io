@@ -11,6 +11,12 @@ This is the website for sprucetherapy.ca, hosted by GitHub pages and built with 
 
 Create a PR and merge to `main`. GitHub pages _should_ take care of the rest.
 
+To force a rebuild without changing files, run this:
+```
+git commit --allow-empty -m "Trigger GitHub Pages rebuild"
+git push
+```
+
 ## Notes
 
 - Got bootstrap integrated with help from this article: https://freddyheppell.com/blog/using-bootstrap-4-with-jekyll
